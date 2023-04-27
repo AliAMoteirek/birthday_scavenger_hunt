@@ -25,7 +25,7 @@
 import { useState } from 'react';
 import Clue from './components/Clue';
 import CongratulationsModal from './components/CongratulationsModal';
-import { coffee, shoes, keys, shower, meal } from './assets';
+import { coffee, shoes, keys, shower, bedroom } from './assets';
 import './App.css';
 
 function App() {
@@ -54,9 +54,9 @@ function App() {
       image: shower,
     },
     {
-      text: "You're almost there! This final clue is where we gather to share meals and make memories.",
-      location: 'dining room',
-      image: meal,
+      text: "You're almost there! This final clue is where we rest our heads at night.",
+      location: 'bedroom',
+      image: bedroom,
     },
   ];
 
