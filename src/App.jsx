@@ -35,27 +35,27 @@ function App() {
   const clues = [
     {
       text: "Let's start your adventure in the place where we keep our tea mugs.",
-      location: 'kitchen',
+      location: 'Kitchen',
       image: coffee,
     },
     {
       text: 'Time to put your best foot forward and head to the place where we keep our shoes.',
-      location: 'closet',
+      location: 'Closet',
       image: shoes,
     },
     {
       text: 'This next clue is where we keep the things that give us access to the outside world.',
-      location: 'key rack',
+      location: 'Key rack',
       image: keys,
     },
     {
       text: 'Feeling refreshed? This clue is hidden where we clean ourselves up.',
-      location: 'bathroom',
+      location: 'Bathroom',
       image: shower,
     },
     {
       text: "You're almost there! This final clue is where we rest our heads at night.",
-      location: 'bedroom',
+      location: 'Bedroom',
       image: bedroom,
     },
   ];
