@@ -54,7 +54,7 @@ function App() {
       image: shower,
     },
     {
-      text: "You're almost there! This final clue is where we rest our heads at night.",
+      text: "You're almost there! Great job! This final clue is where we rest our heads at night.",
       location: 'Bedroom',
       image: bedroom,
     },
