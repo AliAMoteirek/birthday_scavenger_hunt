@@ -74,7 +74,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Birthday Scavenger Hunt</h1>
+      <h1>Birthday Scavenger Hunt1</h1>
       <Clue
         text={clues[clueIndex].text}
         location={clues[clueIndex].location}
