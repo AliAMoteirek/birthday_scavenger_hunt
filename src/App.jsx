@@ -78,10 +78,10 @@ function App() {
       <Clue
         text={clues[clueIndex].text}
         location={clues[clueIndex].location}
-        // image={clues[clueIndex].image}
+        image={clues[clueIndex].image}
         onClueFound={handleClueFound}
       />
-      <CongratulationsModal show={showModal} onClose={handleModalClose} />
+      {/* <CongratulationsModal show={showModal} onClose={handleModalClose} /> */}
     </div>
   );
 }
